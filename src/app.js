@@ -4,6 +4,16 @@ import './style.scss';
 import DrumPad from './DrumPad/DrumPad.jsx'
 import Header from './Header/Header.jsx'
 import Display from './Display/Display.jsx'
+import bdrum from './sounds/Bdrum.mp3';
+import cowbell from './sounds/cowbell.mp3';
+import crush1 from './sounds/crush-1.mp3';
+import crush2 from './sounds/crush-2.mp3';
+import highHatClose from './sounds/High-hat-close.mp3';
+import highHatOpen from './sounds/High-hat-open.mp3';
+import snare from './sounds/snare.mp3';
+import tom1 from './sounds/Tom-1.mp3';
+import tom2 from './sounds/Tom-2.mp3';
+
 
 class DrumMachine extends React.Component {
     constructor(props) {
@@ -61,19 +71,19 @@ class DrumMachine extends React.Component {
                 <Header />
                 <Display sound={this.state.sound} />
                 <section className="drum-pads">
-                    <DrumPad play={this.play} sound="crush-1" DrumPadID="Q" DrumPadClass="clip" audioSrc="../sounds/crush-1.mp3"/>
-                    <DrumPad play={this.play} sound="crush-2" DrumPadID="W" DrumPadClass="clip" audioSrc="../sounds/crush-2.mp3"/>
-                    <DrumPad play={this.play} sound="cowbell" DrumPadID="E" DrumPadClass="clip" audioSrc="../sounds/cowbell.mp3"/>
+                    <DrumPad play={this.play} sound="crush-1" DrumPadID="Q" DrumPadClass="clip" audioSrc={crush1}/>
+                    <DrumPad play={this.play} sound="crush-2" DrumPadID="W" DrumPadClass="clip" audioSrc={crush2}/>
+                    <DrumPad play={this.play} sound="cowbell" DrumPadID="E" DrumPadClass="clip" audioSrc={cowbell}/>
                 </section>
                 <section className="drum-pads">
-                    <DrumPad play={this.play} sound="Bdrum" DrumPadID="A" DrumPadClass="clip" audioSrc="../sounds/Bdrum.mp3"/>
-                    <DrumPad play={this.play} sound="High-hat-close" DrumPadID="S" DrumPadClass="clip" audioSrc="../sounds/High-hat-close.mp3"/>
-                    <DrumPad play={this.play} sound="High-hat-open" DrumPadID="D" DrumPadClass="clip" audioSrc="../sounds/High-hat-open.mp3"/>
+                    <DrumPad play={this.play} sound="Bdrum" DrumPadID="A" DrumPadClass="clip" audioSrc={bdrum}/>
+                    <DrumPad play={this.play} sound="High-hat-close" DrumPadID="S" DrumPadClass="clip" audioSrc={highHatClose}/>
+                    <DrumPad play={this.play} sound="High-hat-open" DrumPadID="D" DrumPadClass="clip" audioSrc={highHatOpen}/>
                 </section>
                 <section className="drum-pads">
-                    <DrumPad play={this.play} sound="snare" DrumPadID="Z" DrumPadClass="clip" audioSrc="../sounds/snare.mp3"/>
-                    <DrumPad play={this.play} sound="Tom-1" DrumPadID="X" DrumPadClass="clip" audioSrc="../sounds/Tom-1.mp3"/>
-                    <DrumPad play={this.play} sound="Tom-2" DrumPadID="C" DrumPadClass="clip" audioSrc="../sounds/Tom-2.mp3"/>
+                    <DrumPad play={this.play} sound="snare" DrumPadID="Z" DrumPadClass="clip" audioSrc={snare}/>
+                    <DrumPad play={this.play} sound="Tom-1" DrumPadID="X" DrumPadClass="clip" audioSrc={tom1}/>
+                    <DrumPad play={this.play} sound="Tom-2" DrumPadID="C" DrumPadClass="clip" audioSrc={tom2}/>
                 </section>
             </section>
         );

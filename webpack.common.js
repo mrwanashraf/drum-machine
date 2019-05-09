@@ -36,6 +36,11 @@ module.exports = {
                         }
                     }
                 ]
+            }, 
+            {
+                test: /\.mp3$/,
+                include: path.resolve(__dirname, 'src/sounds'),
+                loader: 'file-loader',
             }
         ]
     },
