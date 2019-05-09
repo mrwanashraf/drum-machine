@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 27);
+/******/ 	return __webpack_require__(__webpack_require__.s = 36);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -92,7 +92,7 @@
 
 
 if (true) {
-  module.exports = __webpack_require__(9);
+  module.exports = __webpack_require__(18);
 } else {}
 
 
@@ -110,7 +110,7 @@ if (true) {
 if (false) { var throwOnDirectAccess, ReactIs; } else {
   // By explicitly using `prop-types` you are opting into new production behavior.
   // http://fb.me/prop-types-in-prod
-  module.exports = __webpack_require__(21)();
+  module.exports = __webpack_require__(30)();
 }
 
 
@@ -2509,7 +2509,7 @@ var autoReplace = function autoReplace() {
 
 
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(2), __webpack_require__(18).setImmediate))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(2), __webpack_require__(27).setImmediate))
 
 /***/ }),
 /* 4 */
@@ -2672,7 +2672,7 @@ var singleton = null;
 var	singletonCounter = 0;
 var	stylesInsertedAtTop = [];
 
-var	fixUrls = __webpack_require__(15);
+var	fixUrls = __webpack_require__(24);
 
 module.exports = function(list, options) {
 	if (typeof DEBUG !== "undefined" && DEBUG) {
@@ -3133,7 +3133,7 @@ if (true) {
   // DCE check should happen before ReactDOM bundle executes so that
   // DevTools can report bad minification during injection.
   checkDCE();
-  module.exports = __webpack_require__(10);
+  module.exports = __webpack_require__(19);
 } else {}
 
 
@@ -3595,6 +3595,60 @@ var convertCurry = convert.bind(null, react__WEBPACK_IMPORTED_MODULE_2___default
 /* 9 */
 /***/ (function(module, exports, __webpack_require__) {
 
+module.exports = __webpack_require__.p + "04c6720da9dba56eb99076538f96dcb9.mp3";
+
+/***/ }),
+/* 10 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "730c3803ff9fe6289462c419bfe8d6fd.mp3";
+
+/***/ }),
+/* 11 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "131e2e208b0aba2ee47ac927e2336a3c.mp3";
+
+/***/ }),
+/* 12 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "b2ecfaea6840a0ad0937d371e33529d9.mp3";
+
+/***/ }),
+/* 13 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "3c365645f305524201ccb92cb6bf44a3.mp3";
+
+/***/ }),
+/* 14 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "af965da47b9a681f916749330e5942aa.mp3";
+
+/***/ }),
+/* 15 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "de05ba7f648f7a2c5eeaf2effd57a4ac.mp3";
+
+/***/ }),
+/* 16 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "0a4abb443bdc7e4960bf5a7a8dd7c8b4.mp3";
+
+/***/ }),
+/* 17 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "1a6d849ba44681c285a2b6eed42ef1ce.mp3";
+
+/***/ }),
+/* 18 */
+/***/ (function(module, exports, __webpack_require__) {
+
 "use strict";
 /** @license React v16.8.6
  * react.production.min.js
@@ -3624,7 +3678,7 @@ unstable_ConcurrentMode:x,unstable_Profiler:u,__SECRET_INTERNALS_DO_NOT_USE_OR_Y
 
 
 /***/ }),
-/* 10 */
+/* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3640,7 +3694,7 @@ unstable_ConcurrentMode:x,unstable_Profiler:u,__SECRET_INTERNALS_DO_NOT_USE_OR_Y
 /*
  Modernizr 3.0.0pre (Custom Build) | MIT
 */
-var aa=__webpack_require__(0),n=__webpack_require__(6),r=__webpack_require__(11);function ba(a,b,c,d,e,f,g,h){if(!a){a=void 0;if(void 0===b)a=Error("Minified exception occurred; use the non-minified dev environment for the full error message and additional helpful warnings.");else{var l=[c,d,e,f,g,h],k=0;a=Error(b.replace(/%s/g,function(){return l[k++]}));a.name="Invariant Violation"}a.framesToPop=1;throw a;}}
+var aa=__webpack_require__(0),n=__webpack_require__(6),r=__webpack_require__(20);function ba(a,b,c,d,e,f,g,h){if(!a){a=void 0;if(void 0===b)a=Error("Minified exception occurred; use the non-minified dev environment for the full error message and additional helpful warnings.");else{var l=[c,d,e,f,g,h],k=0;a=Error(b.replace(/%s/g,function(){return l[k++]}));a.name="Invariant Violation"}a.framesToPop=1;throw a;}}
 function x(a){for(var b=arguments.length-1,c="https://reactjs.org/docs/error-decoder.html?invariant="+a,d=0;d<b;d++)c+="&args[]="+encodeURIComponent(arguments[d+1]);ba(!1,"Minified React error #"+a+"; visit %s for the full message or use the non-minified dev environment for full errors and additional helpful warnings. ",c)}aa?void 0:x("227");function ca(a,b,c,d,e,f,g,h,l){var k=Array.prototype.slice.call(arguments,3);try{b.apply(c,k)}catch(m){this.onError(m)}}
 var da=!1,ea=null,fa=!1,ha=null,ia={onError:function(a){da=!0;ea=a}};function ja(a,b,c,d,e,f,g,h,l){da=!1;ea=null;ca.apply(ia,arguments)}function ka(a,b,c,d,e,f,g,h,l){ja.apply(this,arguments);if(da){if(da){var k=ea;da=!1;ea=null}else x("198"),k=void 0;fa||(fa=!0,ha=k)}}var la=null,ma={};
 function na(){if(la)for(var a in ma){var b=ma[a],c=la.indexOf(a);-1<c?void 0:x("96",a);if(!oa[c]){b.extractEvents?void 0:x("97",a);oa[c]=b;c=b.eventTypes;for(var d in c){var e=void 0;var f=c[d],g=b,h=d;pa.hasOwnProperty(h)?x("99",h):void 0;pa[h]=f;var l=f.phasedRegistrationNames;if(l){for(e in l)l.hasOwnProperty(e)&&qa(l[e],g,h);e=!0}else f.registrationName?(qa(f.registrationName,g,h),e=!0):e=!1;e?void 0:x("98",d,a)}}}}
@@ -3900,19 +3954,19 @@ X;X=!0;try{ki(a)}finally{(X=b)||W||Yh(1073741823,!1)}},__SECRET_INTERNALS_DO_NOT
 
 
 /***/ }),
-/* 11 */
+/* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
 if (true) {
-  module.exports = __webpack_require__(12);
+  module.exports = __webpack_require__(21);
 } else {}
 
 
 /***/ }),
-/* 12 */
+/* 21 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3941,11 +3995,11 @@ exports.unstable_shouldYield=function(){return!e&&(null!==d&&d.expirationTime<l|
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(2)))
 
 /***/ }),
-/* 13 */
+/* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(14);
+var content = __webpack_require__(23);
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -3966,7 +4020,7 @@ if(content.locals) module.exports = content.locals;
 if(false) {}
 
 /***/ }),
-/* 14 */
+/* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(4)(false);
@@ -3976,7 +4030,7 @@ exports.push([module.i, "body {\n  margin: 0;\n  padding: 0;\n  width: 100%;\n  
 
 
 /***/ }),
-/* 15 */
+/* 24 */
 /***/ (function(module, exports) {
 
 
@@ -4071,11 +4125,11 @@ module.exports = function (css) {
 
 
 /***/ }),
-/* 16 */
+/* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(17);
+var content = __webpack_require__(26);
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -4096,7 +4150,7 @@ if(content.locals) module.exports = content.locals;
 if(false) {}
 
 /***/ }),
-/* 17 */
+/* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(4)(false);
@@ -4106,7 +4160,7 @@ exports.push([module.i, ".drum-pad {\n  background-color: #424242;\n  color: #BD
 
 
 /***/ }),
-/* 18 */
+/* 27 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global) {var scope = (typeof global !== "undefined" && global) ||
@@ -4162,7 +4216,7 @@ exports._unrefActive = exports.active = function(item) {
 };
 
 // setimmediate attaches itself to the global object
-__webpack_require__(19);
+__webpack_require__(28);
 // On some exotic environments, it's not clear which object `setimmediate` was
 // able to install onto.  Search each possibility in the same order as the
 // `setimmediate` library.
@@ -4176,7 +4230,7 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(2)))
 
 /***/ }),
-/* 19 */
+/* 28 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global, process) {(function (global, undefined) {
@@ -4366,10 +4420,10 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
     attachTo.clearImmediate = clearImmediate;
 }(typeof self === "undefined" ? typeof global === "undefined" ? this : global : self));
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(2), __webpack_require__(20)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(2), __webpack_require__(29)))
 
 /***/ }),
-/* 20 */
+/* 29 */
 /***/ (function(module, exports) {
 
 // shim for using process in browser
@@ -4559,7 +4613,7 @@ process.umask = function() { return 0; };
 
 
 /***/ }),
-/* 21 */
+/* 30 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4572,7 +4626,7 @@ process.umask = function() { return 0; };
 
 
 
-var ReactPropTypesSecret = __webpack_require__(22);
+var ReactPropTypesSecret = __webpack_require__(31);
 
 function emptyFunction() {}
 function emptyFunctionWithReset() {}
@@ -4630,7 +4684,7 @@ module.exports = function() {
 
 
 /***/ }),
-/* 22 */
+/* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4649,11 +4703,11 @@ module.exports = ReactPropTypesSecret;
 
 
 /***/ }),
-/* 23 */
+/* 32 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(24);
+var content = __webpack_require__(33);
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -4674,7 +4728,7 @@ if(content.locals) module.exports = content.locals;
 if(false) {}
 
 /***/ }),
-/* 24 */
+/* 33 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(4)(false);
@@ -4684,11 +4738,11 @@ exports.push([module.i, "header {\n  display: flex;\n  flex-direction: row;\n  j
 
 
 /***/ }),
-/* 25 */
+/* 34 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(26);
+var content = __webpack_require__(35);
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -4709,7 +4763,7 @@ if(content.locals) module.exports = content.locals;
 if(false) {}
 
 /***/ }),
-/* 26 */
+/* 35 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(4)(false);
@@ -4719,7 +4773,7 @@ exports.push([module.i, "#display {\n  background-color: #212121;\n  color: #EA8
 
 
 /***/ }),
-/* 27 */
+/* 36 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4734,10 +4788,10 @@ var react_dom = __webpack_require__(7);
 var react_dom_default = /*#__PURE__*/__webpack_require__.n(react_dom);
 
 // EXTERNAL MODULE: ./src/style.scss
-var style = __webpack_require__(13);
+var style = __webpack_require__(22);
 
 // EXTERNAL MODULE: ./src/DrumPad/DrumPad.scss
-var DrumPad_DrumPad = __webpack_require__(16);
+var DrumPad_DrumPad = __webpack_require__(25);
 
 // CONCATENATED MODULE: ./src/DrumPad/DrumPad.jsx
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -7379,7 +7433,7 @@ var _iconsCache = {
 
 
 // EXTERNAL MODULE: ./src/Header/header.scss
-var header = __webpack_require__(23);
+var header = __webpack_require__(32);
 
 // CONCATENATED MODULE: ./src/Header/Header.jsx
 function Header_typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { Header_typeof = function _typeof(obj) { return typeof obj; }; } else { Header_typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return Header_typeof(obj); }
@@ -7436,7 +7490,7 @@ function (_React$Component) {
 
 
 // EXTERNAL MODULE: ./src/Display/Display.scss
-var Display_Display = __webpack_require__(25);
+var Display_Display = __webpack_require__(34);
 
 // CONCATENATED MODULE: ./src/Display/Display.jsx
 function Display_typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { Display_typeof = function _typeof(obj) { return typeof obj; }; } else { Display_typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return Display_typeof(obj); }
@@ -7484,6 +7538,42 @@ function (_React$Component) {
 }(react_default.a.Component);
 
 
+// EXTERNAL MODULE: ./src/sounds/Bdrum.mp3
+var Bdrum = __webpack_require__(9);
+var Bdrum_default = /*#__PURE__*/__webpack_require__.n(Bdrum);
+
+// EXTERNAL MODULE: ./src/sounds/cowbell.mp3
+var cowbell = __webpack_require__(10);
+var cowbell_default = /*#__PURE__*/__webpack_require__.n(cowbell);
+
+// EXTERNAL MODULE: ./src/sounds/crush-1.mp3
+var crush_1 = __webpack_require__(11);
+var crush_1_default = /*#__PURE__*/__webpack_require__.n(crush_1);
+
+// EXTERNAL MODULE: ./src/sounds/crush-2.mp3
+var crush_2 = __webpack_require__(12);
+var crush_2_default = /*#__PURE__*/__webpack_require__.n(crush_2);
+
+// EXTERNAL MODULE: ./src/sounds/High-hat-close.mp3
+var High_hat_close = __webpack_require__(13);
+var High_hat_close_default = /*#__PURE__*/__webpack_require__.n(High_hat_close);
+
+// EXTERNAL MODULE: ./src/sounds/High-hat-open.mp3
+var High_hat_open = __webpack_require__(14);
+var High_hat_open_default = /*#__PURE__*/__webpack_require__.n(High_hat_open);
+
+// EXTERNAL MODULE: ./src/sounds/snare.mp3
+var snare = __webpack_require__(15);
+var snare_default = /*#__PURE__*/__webpack_require__.n(snare);
+
+// EXTERNAL MODULE: ./src/sounds/Tom-1.mp3
+var Tom_1 = __webpack_require__(16);
+var Tom_1_default = /*#__PURE__*/__webpack_require__.n(Tom_1);
+
+// EXTERNAL MODULE: ./src/sounds/Tom-2.mp3
+var Tom_2 = __webpack_require__(17);
+var Tom_2_default = /*#__PURE__*/__webpack_require__.n(Tom_2);
+
 // CONCATENATED MODULE: ./src/app.js
 function app_typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { app_typeof = function _typeof(obj) { return typeof obj; }; } else { app_typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return app_typeof(obj); }
 
@@ -7510,6 +7600,15 @@ function app_assertThisInitialized(self) { if (self === void 0) { throw new Refe
 function app_inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) app_setPrototypeOf(subClass, superClass); }
 
 function app_setPrototypeOf(o, p) { app_setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return app_setPrototypeOf(o, p); }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -7593,19 +7692,19 @@ function (_React$Component) {
         sound: "crush-1",
         DrumPadID: "Q",
         DrumPadClass: "clip",
-        audioSrc: "../sounds/crush-1.mp3"
+        audioSrc: crush_1_default.a
       }), react_default.a.createElement(DrumPad_DrumPad_DrumPad, {
         play: this.play,
         sound: "crush-2",
         DrumPadID: "W",
         DrumPadClass: "clip",
-        audioSrc: "../sounds/crush-2.mp3"
+        audioSrc: crush_2_default.a
       }), react_default.a.createElement(DrumPad_DrumPad_DrumPad, {
         play: this.play,
         sound: "cowbell",
         DrumPadID: "E",
         DrumPadClass: "clip",
-        audioSrc: "../sounds/cowbell.mp3"
+        audioSrc: cowbell_default.a
       })), react_default.a.createElement("section", {
         className: "drum-pads"
       }, react_default.a.createElement(DrumPad_DrumPad_DrumPad, {
@@ -7613,19 +7712,19 @@ function (_React$Component) {
         sound: "Bdrum",
         DrumPadID: "A",
         DrumPadClass: "clip",
-        audioSrc: "../sounds/Bdrum.mp3"
+        audioSrc: Bdrum_default.a
       }), react_default.a.createElement(DrumPad_DrumPad_DrumPad, {
         play: this.play,
         sound: "High-hat-close",
         DrumPadID: "S",
         DrumPadClass: "clip",
-        audioSrc: "../sounds/High-hat-close.mp3"
+        audioSrc: High_hat_close_default.a
       }), react_default.a.createElement(DrumPad_DrumPad_DrumPad, {
         play: this.play,
         sound: "High-hat-open",
         DrumPadID: "D",
         DrumPadClass: "clip",
-        audioSrc: "../sounds/High-hat-open.mp3"
+        audioSrc: High_hat_open_default.a
       })), react_default.a.createElement("section", {
         className: "drum-pads"
       }, react_default.a.createElement(DrumPad_DrumPad_DrumPad, {
@@ -7633,19 +7732,19 @@ function (_React$Component) {
         sound: "snare",
         DrumPadID: "Z",
         DrumPadClass: "clip",
-        audioSrc: "../sounds/snare.mp3"
+        audioSrc: snare_default.a
       }), react_default.a.createElement(DrumPad_DrumPad_DrumPad, {
         play: this.play,
         sound: "Tom-1",
         DrumPadID: "X",
         DrumPadClass: "clip",
-        audioSrc: "../sounds/Tom-1.mp3"
+        audioSrc: Tom_1_default.a
       }), react_default.a.createElement(DrumPad_DrumPad_DrumPad, {
         play: this.play,
         sound: "Tom-2",
         DrumPadID: "C",
         DrumPadClass: "clip",
-        audioSrc: "../sounds/Tom-2.mp3"
+        audioSrc: Tom_2_default.a
       })));
     }
   }]);
