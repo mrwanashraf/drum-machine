@@ -4025,7 +4025,7 @@ if(false) {}
 
 exports = module.exports = __webpack_require__(4)(false);
 // Module
-exports.push([module.i, "body {\n  margin: 0;\n  padding: 0;\n  width: 100%;\n  height: 100vh;\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  align-items: center;\n  background: #212121;\n  font-family: \"Ubuntu\", sans-serif;\n  user-select: none;\n}\n\n#drum-machine {\n  display: flex;\n  flex-direction: column;\n  width: 80vmin;\n  height: auto;\n  background-color: #424242;\n  box-shadow: 0 0 3vmin #EA80FC;\n  border: 10px solid #424242;\n}\n\n.drum-pads {\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between;\n  align-items: center;\n}\n\n.drum-pads:nth-child(2n) {\n  margin-bottom: 2%;\n  margin-top: 2%;\n}", ""]);
+exports.push([module.i, "body {\n  margin: 0;\n  padding: 0;\n  width: 100%;\n  height: 100vh;\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  align-items: center;\n  background: #212121;\n  font-family: \"Ubuntu\", sans-serif;\n  user-select: none;\n  -moz-user-select: none;\n  -webkit-user-select: none;\n  -ms-user-select: none;\n}\n\n#drum-machine {\n  display: flex;\n  flex-direction: column;\n  width: 80vmin;\n  height: auto;\n  background-color: #424242;\n  box-shadow: 0 0 3vmin #EA80FC;\n  border: 10px solid #424242;\n}\n\n.drum-pads {\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between;\n  align-items: center;\n}\n\n.drum-pads:nth-child(2n) {\n  margin-bottom: 2%;\n  margin-top: 2%;\n}", ""]);
 
 
 
