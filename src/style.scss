@@ -10,6 +10,9 @@ body {
     background: #212121;
     font-family: 'Ubuntu', sans-serif;
     user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 
 #drum-machine {
